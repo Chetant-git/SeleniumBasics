@@ -1,0 +1,20 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="TestNG session TestAutomation suite">
+
+	 <test name="testng feauture Test">
+	 
+	 
+	 <parameter name= "browser" value="chrome"/>
+	 <parameter name= "url" value="https://www.crmpro.com/index.html"/>
+	 <parameter name= "username" value="ChetanT"/>
+	 <parameter name= "password" value="qwerasdf1234"/>
+	 
+	 
+ 		<classes>
+			 <class name="com.parameters.ParameterTest" />
+
+ 		</classes>
+	 </test>
+</suite>

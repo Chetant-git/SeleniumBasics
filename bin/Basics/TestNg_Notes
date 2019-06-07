@@ -1,0 +1,29 @@
+TestNg--- Unit testing framework
+
+purpose-- design test cases in systematic way, available in form of jar file
+
+Java unit testing framework
+Generated good HTML reports
+Gives lot of annotations
+define sequence, priorities of test cases
+Dependency feature (1 tc dependent on other)
+Grouping of testing
+
+
+Imp--- Data provider 
+(Ex: used for login of 10 different users...)
+TestNg is also called as TDD framework (test driven development)--- along with development testing is carried out
+
+
+Install Testng in eclipse
+url-- http://beust.com/eclipse/
+
+
+
+1. Data Drive: from different resources
+a. Excel file--- test data
+b. Properties file---  env variables, OR, test data
+c. testng.xml---- env variables
+d. DB
+e. XMl file
+f. JSON file

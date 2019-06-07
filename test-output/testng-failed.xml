@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNG session TestAutomation suite]">
+  <test thread-count="5" name="testng feauture Test(failed)">
+    <parameter name="password" value="qwerasdf1234"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.crmpro.com/index.html"/>
+    <parameter name="username" value="ChetanT"/>
+    <classes>
+      <class name="com.parameters.ParameterTest">
+        <methods>
+          <include name="CRMloginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.parameters.ParameterTest -->
+    </classes>
+  </test> <!-- testng feauture Test(failed) -->
+</suite> <!-- Failed suite [TestNG session TestAutomation suite] -->
