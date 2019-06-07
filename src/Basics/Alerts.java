@@ -26,5 +26,7 @@ public class Alerts {
 		String alertText = alert.getText();
 		System.out.println("Alert text: "+alertText);
 		alert.accept();
+		
+		//chet
 	}
 }
